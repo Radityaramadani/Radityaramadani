@@ -1,0 +1,84 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Bagian */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Responsif untuk Tablet */
+@media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 2em;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+}
+
+/* Responsif untuk Desktop */
+@media (min-width: 1024px) {
+    body {
+        max-width: 960px;
+        margin: auto;
+    }
+    
+    section {
+        padding: 40px;
+    }
+}
